@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.css';
+import fotoUrl from '../Components/foto.png'; // Ruta de la imagen
 
 const Main = () => {
     const datosPersonales = {
@@ -12,11 +13,12 @@ const Main = () => {
 
     return (
         <>
-            <h1>My best pet</h1>
+        <br />
+            <h1>My presentation</h1>
             <h2>Aprendiendo React</h2>
-            <p><small>Help</small></p>
+            <p><small>Yo soy</small></p>
             <div className="tarjeta">
-                <img src={datosPersonales.fotoUrl} alt="Foto de perfil" />
+                <img src={fotoUrl} alt="Foto de perfil" />
                 <h3>{datosPersonales.nombre}</h3>
                 <p>Edad: {datosPersonales.edad}</p>
                 <p>Ocupación: {datosPersonales.ocupacion}</p>

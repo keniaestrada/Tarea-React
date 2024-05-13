@@ -16,3 +16,11 @@
 .astro--station {
     font-size: 1.2rem;
 }
+/*about
+- Agregar informacion publica personal.
+- Foto - opcional
+- Nombre, correo/contacto, descripcion pequeña
+
+- Preparar ruta para /about
+- Navbar siempre disponible
+- Arreglar que la navbar no esté sobre el contenido al cargar.*/
